@@ -1,0 +1,44 @@
+@media (max-width: 800px) { /* 모바일 버전 */
+.pc { display: none !important; }
+
+.wrap { width: 94%; }
+
+.bg { background-size: auto 320px; background-position: center top; }
+
+header { background: none; height: 60px; border-bottom: 1px solid rgb(255,255,255,0.3); }
+header h1 { padding-top: 10px; color: #fff; }
+header h1 img { margin-right: 6px; }
+
+header .snb { top: 22px; }
+header .snb li:first-child { margin-top: 0px; }
+header .snb li a img { filter: invert(1); /* 색을 반전 검정이면 흰색 */ }
+
+#main { padding-top: 60px; padding-bottom: 0; }
+#main strong { font-size: 22px; }
+#main p { margin-top: 20px; font-size: 14px; line-height: 1.6; }
+
+#main ul li { float: none; margin-right: 0; width: 100vw; margin-left: -3vw; text-align: left; }
+#main ul li a { height: auto; transition: none; display: block; padding: 10px 80px 10px 10px; position: relative; }
+#main ul li a img { height: 37px; position: absolute; right: 10px; bottom: 10px; }
+#main ul li a dl dt { font-size: 18px; margin-top: 0; }
+#main ul li a dl dd { font-size: 13px; margin-top: 10px; opacity: 0.8; word-break: keep-all; line-height: 1.4; }
+#main ul li a dl dd br { display: none; }
+#main ul li a span { margin-top: 20px; border: 1px solid #ddd; border-radius: 4px; padding: 0 20px; line-height: 30px; }
+
+#main ul li:nth-child(1) a { background: #3229a6; }
+#main ul li:nth-child(2) a { background: #fe7b05; }
+#main ul li:nth-child(3) a { background: #353130; }
+
+footer { color: #666; background: #fff; text-align: center; }
+footer nav { border: none; }
+footer nav .wrap { width: auto; }
+footer nav ul li { line-height: 40px; font-size: 14px; margin-right: 0; float: none; font-weight: bold; border-bottom: 1px solid #ddd; }
+footer address { line-height: 1.6; padding: 20px 0; font-size: 13px; }
+
+footer .btn { justify-content: space-between; padding-bottom: 20px; }
+footer .btn a { width: 32%; line-height: 40px; background: #666; color: #fff; font-size: 14px; }
+}
+
+@media (min-width: 801px) { /* pc 버전 */
+.mob { display: none !important; }
+}
